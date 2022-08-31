@@ -1,0 +1,9 @@
+Document: qt5-bluetooth
+Title: Qt 5 Bluetooth module
+Author: The Qt Company Ltd
+Abstract: This is the HTML documentation for Qt 5 Bluetooth
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/qtconnectivity5-doc-html/html/qtbluetooth/qtbluetooth-index.html
+Files: /usr/share/doc/qtconnectivity5-doc-html/html/qtbluetooth/*.html

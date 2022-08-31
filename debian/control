@@ -1,0 +1,126 @@
+Source: qtconnectivity-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               libbluetooth-dev [linux-any],
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.15.3~),
+               qtbase5-private-dev (>= 5.15.3~),
+               qtdeclarative5-dev (>= 5.15.3~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.3~) <!nodoc>
+Standards-Version: 4.6.0
+Homepage: https://doc.qt.io/qt-5/topics-network-connectivity.html
+
+Package: libqt5bluetooth5
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt5bluetooth5-bin, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Connectivity Bluetooth module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Bluetooth part of the Qt Connectivity module.
+
+Package: libqt5bluetooth5-bin
+Architecture: linux-any
+Section: utils
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Connectivity Bluetooth module helper binaries
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Bluetooth helper binaries.
+
+Package: qml-module-qtbluetooth
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt5bluetooth5, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Connectivity module - Bluetooth QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Bluetooth QML module from the Qt Connectivity module.
+
+Package: libqt5nfc5
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: neard
+Description: Qt Connectivity NFC module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the NFC part of the Qt Connectivity module.
+
+Package: qml-module-qtnfc
+Architecture: linux-any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: libqt5nfc5, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Connectivity module - NFC QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the NFC QML module from the Qt Connectivity module.
+
+Package: qtconnectivity5-dev
+Section: libdevel
+Architecture: linux-any
+Multi-Arch: same
+Depends: libqt5bluetooth5 (= ${binary:Version}),
+         libqt5nfc5 (= ${binary:Version}),
+         qtbase5-dev,
+         ${misc:Depends}
+Description: Qt Connectivity development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using Qt Connectivity libraries.
+
+Package: qtconnectivity5-examples
+Architecture: linux-any
+Multi-Arch: same
+Section: x11
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Connectivity examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 Connectivity examples.
+
+Package: qtconnectivity5-doc
+Architecture: all
+Build-Profiles: <!nodoc>
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Connectivity documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 Connectivity
+ modules (Qt Bluetooth and Qt NFC).
+
+Package: qtconnectivity5-doc-html
+Architecture: all
+Build-Profiles: <!nodoc>
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Connectivity HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 Connectivity
+ modules (Qt Bluetooth and Qt NFC).

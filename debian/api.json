@@ -1,0 +1,4 @@
+{"Filepath":"include/QtBluetooth/qbluetoothglobal.h","Functions":null,"Records":[{"Name":"macro","Fields":["DEPRECATED_HEADER_QtBluetooth_qbluetoothglobal_h"]}]}
+{"Filepath":"include/QtBluetooth/qtbluetoothversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QTBLUETOOTH_VERSION","QTBLUETOOTH_VERSION_STR","QT_QTBLUETOOTH_VERSION_H"]}]}
+{"Filepath":"include/QtNfc/qnfcglobal.h","Functions":null,"Records":[{"Name":"macro","Fields":["DEPRECATED_HEADER_QtNfc_qnfcglobal_h"]}]}
+{"Filepath":"include/QtNfc/qtnfcversion.h","Functions":null,"Records":[{"Name":"macro","Fields":["QTNFC_VERSION","QTNFC_VERSION_STR","QT_QTNFC_VERSION_H"]}]}
