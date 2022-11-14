@@ -16,7 +16,7 @@ override_dh_auto_configure:
 	#cd src/bluetooth/bluez/ ; ./generate
 	# Now call qmake
 	dh_auto_configure -- \
-		PKG_CONFIG_LIBDIR=/usr/lib/*/pkgconfig \
+		PKG_CONFIG_LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig \
 		QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-indep:
@@ -26,14 +26,14 @@ override_dh_auto_install-arch:
 	dh_auto_install
 
 	# Reproducible builds: remove build paths from prl files.
-	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/*/libQt5Bluetooth.prl
-	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/*/libQt5Nfc.prl
+	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5Bluetooth.prl
+	sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/libQt5Nfc.prl
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_link:
 	dh_link
-	dh_link -plibqt5bluetooth5-bin usr/lib/qt5/bin/sdpscanner usr/lib/*/qt5/bin/sdpscanner
+	dh_link -plibqt5bluetooth5-bin usr/lib/qt5/bin/sdpscanner usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/sdpscanner
 
 override_dh_auto_test-indep:
