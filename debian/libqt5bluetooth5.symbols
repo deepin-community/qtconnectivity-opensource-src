@@ -18,7 +18,7 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0~rc2
  Qt_5.9@Qt_5.9 5.9.0~rc2
  Qt_5@Qt_5 5.6.0
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
+ (symver)Qt_5_PRIVATE_API 0
  _Z17bluetoothdVersionv@Qt_5 5.11.1
  _ZN14QBluetoothUuid16protocolToStringENS_12ProtocolUuidE@Qt_5 5.6.0
  _ZN14QBluetoothUuid18descriptorToStringENS_14DescriptorTypeE@Qt_5 5.6.0
@@ -310,29 +310,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN25QLowEnergyAdvertisingDataD1Ev@Qt_5 5.7.0
  _ZN25QLowEnergyAdvertisingDataD2Ev@Qt_5 5.7.0
  _ZN25QLowEnergyAdvertisingDataaSERKS_@Qt_5 5.7.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez12sendReturnedEP23QDBusPendingCallWatcher@Qt_5_PRIVATE_API 5.6.0
- _ZN28QBluetoothTransferReplyBluez14cleanupSessionEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez14copyToTempFileEP9QIODeviceS1_@Qt_5_PRIVATE_API 5.6.0
- _ZN28QBluetoothTransferReplyBluez14sessionChangedERK7QStringRK4QMapIS0_8QVariantERK11QStringListRK12QDBusMessage@Qt_5_PRIVATE_API 5.14.2
- _ZN28QBluetoothTransferReplyBluez14sessionCreatedEP23QDBusPendingCallWatcher@Qt_5_PRIVATE_API 5.6.0
- _ZN28QBluetoothTransferReplyBluez14sessionStartedEP23QDBusPendingCallWatcher@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez5ErrorERK15QDBusObjectPathRK7QString@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez5abortEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez5startEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez7ReleaseEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez7RequestERK15QDBusObjectPath@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez8CompleteERK15QDBusObjectPath@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez8ProgressERK15QDBusObjectPathy@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluez8copyDoneEv@Qt_5_PRIVATE_API 5.6.0
- _ZN28QBluetoothTransferReplyBluez8startOPPERK7QString@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluezC1EP9QIODeviceRK25QBluetoothTransferRequestP25QBluetoothTransferManager@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluezC2EP9QIODeviceRK25QBluetoothTransferRequestP25QBluetoothTransferManager@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluezD0Ev@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluezD1Ev@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZN28QBluetoothTransferReplyBluezD2Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN28QLowEnergyCharacteristicData13addDescriptorERK24QLowEnergyDescriptorData@Qt_5 5.7.0
  _ZN28QLowEnergyCharacteristicData13setPropertiesE6QFlagsIN24QLowEnergyCharacteristic12PropertyTypeEE@Qt_5 5.7.0
  _ZN28QLowEnergyCharacteristicData14setDescriptorsERK5QListI24QLowEnergyDescriptorDataE@Qt_5 5.7.0
@@ -369,8 +346,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZN30QBluetoothDeviceDiscoveryAgentD0Ev@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgentD1Ev@Qt_5 5.6.0
  _ZN30QBluetoothDeviceDiscoveryAgentD2Ev@Qt_5 5.6.0
- _ZN30QBluetoothTransferReplyPrivateC1Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN30QBluetoothTransferReplyPrivateC2Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN30QLowEnergyConnectionParameters10setLatencyEi@Qt_5 5.7.0
  _ZN30QLowEnergyConnectionParameters16setIntervalRangeEdd@Qt_5 5.7.0
  _ZN30QLowEnergyConnectionParameters21setSupervisionTimeoutEi@Qt_5 5.7.0
@@ -556,11 +531,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZNK25QLowEnergyAdvertisingData7rawDataEv@Qt_5 5.7.0
  _ZNK25QLowEnergyAdvertisingData8servicesEv@Qt_5 5.7.0
  _ZNK25QLowEnergyAdvertisingData9localNameEv@Qt_5 5.7.0
- (arch=linux-any)_ZNK28QBluetoothTransferReplyBluez10isFinishedEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZNK28QBluetoothTransferReplyBluez10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZNK28QBluetoothTransferReplyBluez11errorStringEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZNK28QBluetoothTransferReplyBluez5errorEv@Qt_5_PRIVATE_API 5.6.0
- (arch=linux-any)_ZNK28QBluetoothTransferReplyBluez9isRunningEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK28QLowEnergyCharacteristicData10propertiesEv@Qt_5 5.7.0
  _ZNK28QLowEnergyCharacteristicData11descriptorsEv@Qt_5 5.7.0
  _ZNK28QLowEnergyCharacteristicData15readConstraintsEv@Qt_5 5.7.0
@@ -601,7 +571,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZTI21QBluetoothLocalDevice@Qt_5 5.6.0
  _ZTI23QBluetoothTransferReply@Qt_5 5.6.0
  _ZTI25QBluetoothTransferManager@Qt_5 5.6.0
- (arch=linux-any)_ZTI28QBluetoothTransferReplyBluez@Qt_5_PRIVATE_API 5.6.0
  _ZTI30QBluetoothDeviceDiscoveryAgent@Qt_5 5.6.0
  _ZTI31QBluetoothServiceDiscoveryAgent@Qt_5 5.6.0
  (arch=linux-any)_ZTS12QDBusContext@Qt_5 5.6.0
@@ -612,7 +581,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZTS21QBluetoothLocalDevice@Qt_5 5.6.0
  _ZTS23QBluetoothTransferReply@Qt_5 5.6.0
  _ZTS25QBluetoothTransferManager@Qt_5 5.6.0
- (arch=linux-any)_ZTS28QBluetoothTransferReplyBluez@Qt_5_PRIVATE_API 5.6.0
  _ZTS30QBluetoothDeviceDiscoveryAgent@Qt_5 5.6.0
  _ZTS31QBluetoothServiceDiscoveryAgent@Qt_5 5.6.0
  _ZTV16QBluetoothServer@Qt_5 5.6.0
@@ -622,7 +590,6 @@ libQt5Bluetooth.so.5 libqt5bluetooth5 #MINVER#
  _ZTV21QBluetoothLocalDevice@Qt_5 5.6.0
  _ZTV23QBluetoothTransferReply@Qt_5 5.6.0
  _ZTV25QBluetoothTransferManager@Qt_5 5.6.0
- (arch=linux-any)_ZTV28QBluetoothTransferReplyBluez@Qt_5_PRIVATE_API 5.6.0
  _ZTV30QBluetoothDeviceDiscoveryAgent@Qt_5 5.6.0
  _ZTV31QBluetoothServiceDiscoveryAgent@Qt_5 5.6.0
  _ZeqRK21QLowEnergyServiceDataS1_@Qt_5 5.7.0

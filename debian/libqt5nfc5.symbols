@@ -18,52 +18,11 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  Qt_5.8@Qt_5.8 5.9.0~rc2
  Qt_5.9@Qt_5.9 5.9.0~rc2
  Qt_5@Qt_5 5.6.0
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
+ (symver)Qt_5_PRIVATE_API 0
  _Z12qNfcChecksumPKcj@Qt_5 5.6.0
  _Z29qRegisterNdefRecordTypeHelperPK11QMetaObjectN11QNdefRecord14TypeNameFormatERK10QByteArray@Qt_5 5.6.0
  _Z38qNewDeclarativeNdefRecordForNdefRecordRK11QNdefRecord@Qt_5 5.6.0
  _Z5qHashRK11QNdefRecord@Qt_5 5.6.0
- _ZN11QLlcpServer11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServer11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServer13newConnectionEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServer16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServer21nextPendingConnectionEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServer5closeEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServer6listenERK7QString@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServerC1EP7QObject@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServerC2EP7QObject@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServerD0Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServerD1Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpServerD2Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket11qt_metacastEPKc@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket12disconnectedEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket12readDatagramEPcxPP16QNearFieldTargetPh@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket12stateChangedENS_11SocketStateE@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket13writeDatagramEPKcx@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket13writeDatagramEPKcxP16QNearFieldTargeth@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket13writeDatagramERK10QByteArray@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket13writeDatagramERK10QByteArrayP16QNearFieldTargeth@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket16connectToServiceEP16QNearFieldTargetRK7QString@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket16staticMetaObjectE@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket16waitForConnectedEi@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket16waitForReadyReadEi@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket19waitForBytesWrittenEi@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket19waitForDisconnectedEi@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket21disconnectFromServiceEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket4bindEh@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket5closeEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket5errorENS_11SocketErrorE@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket8readDataEPcx@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket9connectedEv@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocket9writeDataEPKcx@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketC1EP18QLlcpSocketPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketC1EP7QObject@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketC2EP18QLlcpSocketPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketC2EP7QObject@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketD0Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketD1Ev@Qt_5_PRIVATE_API 5.6.0
- _ZN11QLlcpSocketD2Ev@Qt_5_PRIVATE_API 5.6.0
  _ZN11QNdefFilter12appendRecordEN11QNdefRecord14TypeNameFormatERK10QByteArrayjj@Qt_5 5.6.0
  _ZN11QNdefFilter12appendRecordERKNS_6RecordE@Qt_5 5.6.0
  _ZN11QNdefFilter13setOrderMatchEb@Qt_5 5.6.0
@@ -157,9 +116,7 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN17QNearFieldManager26registerNdefMessageHandlerEP7QObjectPKc@Qt_5 5.6.0
  _ZN17QNearFieldManager26registerNdefMessageHandlerERK11QNdefFilterP7QObjectPKc@Qt_5 5.6.0
  _ZN17QNearFieldManager28unregisterNdefMessageHandlerEi@Qt_5 5.6.0
- _ZN17QNearFieldManagerC1EP24QNearFieldManagerPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0
  _ZN17QNearFieldManagerC1EP7QObject@Qt_5 5.6.0
- _ZN17QNearFieldManagerC2EP24QNearFieldManagerPrivateP7QObject@Qt_5_PRIVATE_API 5.6.0
  _ZN17QNearFieldManagerC2EP7QObject@Qt_5 5.6.0
  _ZN17QNearFieldManagerD0Ev@Qt_5 5.6.0
  _ZN17QNearFieldManagerD1Ev@Qt_5 5.6.0
@@ -223,20 +180,6 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZN25QNdefNfcSmartPosterRecordD1Ev@Qt_5 5.6.0
  _ZN25QNdefNfcSmartPosterRecordD2Ev@Qt_5 5.6.0
  _ZN25QNdefNfcSmartPosterRecordaSERKS_@Qt_5 5.6.0
- _ZNK11QLlcpServer10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpServer10serverPortEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpServer10serviceUriEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpServer11isListeningEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpServer11serverErrorEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpServer21hasPendingConnectionsEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket10metaObjectEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket11canReadLineEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket12isSequentialEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket14bytesAvailableEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket19hasPendingDatagramsEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket19pendingDatagramSizeEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket5errorEv@Qt_5_PRIVATE_API 5.6.0
- _ZNK11QLlcpSocket5stateEv@Qt_5_PRIVATE_API 5.6.0
  _ZNK11QNdefFilter10orderMatchEv@Qt_5 5.6.0
  _ZNK11QNdefFilter11recordCountEv@Qt_5 5.6.0
  _ZNK11QNdefFilter8recordAtEi@Qt_5 5.6.0
@@ -296,22 +239,16 @@ libQt5Nfc.so.5 libqt5nfc5 #MINVER#
  _ZNK25QNdefNfcSmartPosterRecord9hasActionEv@Qt_5 5.6.0
  _ZNK25QNdefNfcSmartPosterRecord9iconCountEv@Qt_5 5.6.0
  _ZNK25QNdefNfcSmartPosterRecord9uriRecordEv@Qt_5 5.6.0
- _ZTI11QLlcpServer@Qt_5_PRIVATE_API 5.6.0
- _ZTI11QLlcpSocket@Qt_5_PRIVATE_API 5.6.0
  _ZTI14QQmlNdefRecord@Qt_5 5.6.0
  _ZTI16QNearFieldTarget@Qt_5 5.6.0
  _ZTI17QNearFieldManager@Qt_5 5.6.0
  _ZTI21QNearFieldShareTarget@Qt_5 5.6.0
  _ZTI22QNearFieldShareManager@Qt_5 5.6.0
- _ZTS11QLlcpServer@Qt_5_PRIVATE_API 5.6.0
- _ZTS11QLlcpSocket@Qt_5_PRIVATE_API 5.6.0
  _ZTS14QQmlNdefRecord@Qt_5 5.6.0
  _ZTS16QNearFieldTarget@Qt_5 5.6.0
  _ZTS17QNearFieldManager@Qt_5 5.6.0
  _ZTS21QNearFieldShareTarget@Qt_5 5.6.0
  _ZTS22QNearFieldShareManager@Qt_5 5.6.0
- _ZTV11QLlcpServer@Qt_5_PRIVATE_API 5.6.0
- _ZTV11QLlcpSocket@Qt_5_PRIVATE_API 5.6.0
  _ZTV14QQmlNdefRecord@Qt_5 5.6.0
  _ZTV16QNearFieldTarget@Qt_5 5.6.0
  _ZTV17QNearFieldManager@Qt_5 5.6.0

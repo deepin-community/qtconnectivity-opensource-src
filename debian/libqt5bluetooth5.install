@@ -1,1 +1,1 @@
-usr/lib/*/libQt5Bluetooth.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5Bluetooth.so.*
