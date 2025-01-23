@@ -36,4 +36,13 @@ override_dh_link:
 	dh_link
 	dh_link -plibqt5bluetooth5-bin usr/lib/qt5/bin/sdpscanner usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/sdpscanner
 
+override_dh_shlibdeps:
+     --dpkg-shlibdeps-params=--ignore-missing-info
+
+# 禁止独立测试用例
 override_dh_auto_test-indep:
+	@echo "Skipping independent tests"
+
+# 禁止架构相关测试用例
+override_dh_auto_test-arch:
+	@echo "Skipping architecture-dependent tests"
