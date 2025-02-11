@@ -1,3 +1,9 @@
+qtconnectivity-opensource-src (5.15.7-1+dde1) unstable; urgency=medium
+
+  * fix QLowEnergyControllerPrivateBluez: guard against malformed replies
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Tue, 11 Feb 2025 15:38:38 +0800
+
 qtconnectivity-opensource-src (5.15.7-1+dde) unstable; urgency=medium
 
   * New upstream release (5.15.7).
